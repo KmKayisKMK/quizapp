@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:text="@string/header"
+            android:textAllCaps="true"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_prompt"
+            android:inputType="textCapWords"
+            android:paddingTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/recent_avalanches_question"
+            style="@style/CheckBoxText"
+            android:text="@string/recent_avalanches" />
+
+        <CheckBox
+            android:id="@+id/snowpack_failures_question"
+            style="@style/CheckBoxText"
+            android:text="@string/snow_pack" />
+
+        <CheckBox
+            android:id="@+id/significant_snowfall_question"
+            style="@style/CheckBoxText"
+            android:text="@string/significant_snowfall" />
+
+        <CheckBox
+            android:id="@+id/strong_winds_question"
+            style="@style/CheckBoxText"
+            android:text="@string/strong_winds" />
+
+        <CheckBox
+            android:id="@+id/temperature_change_question"
+            style="@style/CheckBoxText"
+            android:text="@string/temperature_change" />
+
+        <CheckBox
+            android:id="@+id/human_factor_question"
+            style="@style/CheckBoxText"
+            android:text="@string/human_factor" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:text="@string/submit_button"
+            android:onClick="submitQuiz"/>
+
+    </LinearLayout>
+</ScrollView>

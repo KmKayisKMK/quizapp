@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">\"Avalanche Red Flags\" Quiz App</string>
+
+    <string name="header">Is it safe to ski tour in this area?</string>
+
+    <string name="name_prompt">name</string>
+
+    <string name="recent_avalanches">Have you observed any recent avalanches (within the last 24 hours)?</string>
+
+    <string name="snow_pack">Have you observed any failures in the snow pack (cracking, whomping, blocking)?</string>
+
+    <string name="significant_snowfall">Has there been significant snowfall in the last 24 hours?</string>
+
+    <string name="strong_winds">Has there been a recent wind event (wind transported snow within the last 24 hours)?</string>
+
+    <string name="temperature_change">Has there been a recent significant temperature fluctuation (temperatures rising above freezing)? </string>
+
+    <string name="human_factor">Are there any human factors at play?</string>
+
+    <string name="submit_button">Submit</string>
+
+</resources>
